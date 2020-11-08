@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* style for the whole component */
+.Ipod{
+    background-color: #dbdbdb;
+    padding-top: 1px;
+    margin: auto;
+    width: 350px;
+    height: 550px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: rgb(85, 85, 85) 0px 0px 2.4em inset;
+    background: linear-gradient(rgb(227, 227, 227) 0%, rgb(214, 214, 214) 100%);
+}
+/* style for the screen */
+.list-container{
+    height:100%;
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+}
+
+.list-container ul{
+    padding:0px;
+    margin:0px;
+} 
+.options{
+    padding:10px;
+    font-weight:600;
+}
+.list-item{
+    list-style-type: none;
+    padding:10px;
+    background-color: white;
+    text-align: left;
+}
+#screen{
+    border: 1px solid black;
+    position: relative;
+    height: 250px;
+    width: 90%;
+    left: 4.5%;
+    top: 2%;
+    color: black;
+    background-color: white;
+    outline-offset: -5px;
+    border-radius: 10px;
+}
+/* style for the lower part which contains the menus */
+.controls{
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    top: 150px;
+}
+.controls-container{
+    width:200px;
+    height:200px;
+    }
+/* style for the outer circle which contains the icons */
+#wheel-container {
+    width:240px;
+    height:240px;
+    background-color:white; 
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+	left: 0;
+	right: 0;
+    margin: auto;
+    top: 260px;
+}
+.center-btn {
+    width:120px;
+    height:120px;
+    background-color: rgb(185, 185, 185);;
+    border-radius: 50%;
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:60px;
+    margin:auto;
+}
+
+/* the selection button in the middle */
+#Menu{
+    position: absolute;
+    color: rgb(185, 185, 185);
+    top: 25px;
+    left: 80px;
+    font-size: 135%;
+    font-weight: bold;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
+    background-color: white;
+    border: 0px;
+}
+#menu-button:hover{
+    cursor: pointer;
+}
+/* the div which is created dynamically using JavaScript */
+#title{
+    margin: auto;
+}
+#next {
+    position: absolute;
+    top: 105px;
+    left: 185px;
+    user-select: none;
+}
+#nextImg {
+    width: 40px;
+}
+  
+#play {
+    position: absolute;
+    top: 190px;
+    left: 95px;
+    user-select: none;
+}
+  
+#playImg {
+    width: 47px;
+}
+  
+#prev {
+    position: absolute;
+    top: 105px;
+    left: 20px;
+    user-select: none;
+}
+  
+#prevImg {
+    width: 40px;
+}
+  
